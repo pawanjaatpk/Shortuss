@@ -58,7 +58,11 @@
         "WELCOME": {
             "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
             "required": false
-        },   
+        },
+        "LINK_BYPASS":{
+      "description": "Enter True if you want other shortener links to be bypassed. Read README for more information",
+      "value": "False",
+      "required": false  
 
     },
     "addons": [],
