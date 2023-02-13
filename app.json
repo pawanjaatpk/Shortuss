@@ -59,10 +59,14 @@
             "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
             "required": false
         },
-        "LINK_BYPASS":{
+        "LINK_BYPASS": {
+            "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
+            "required": false
+        },
+        "BROADCAST_AS_COPY":{
       "description": "Enter True if you want other shortener links to be bypassed. Read README for more information",
       "value": "False",
-      "required": false  
+      "required": false 
 
     },
     "addons": [],
