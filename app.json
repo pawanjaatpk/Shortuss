@@ -19,15 +19,15 @@
     "website": "https://github.com/Aadhi000/Ajax",
     "repository": "https://github.com/pawanjaatpk/shortuss",
     "env": {
-        "BOT_TOKEN": {
+        "API_ID": {
             "description": "Your bot token.",
             "required": true
         },
-        "API_ID": {
+        "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
             "required": true
         },
-        "API_HASH": {
+        "BOT_TOKEN": {
             "description": "Get this value from https://my.telegram.org",
             "required": true
         },
@@ -43,11 +43,11 @@
             "description": "Add some telegraph link of pictures .",
             "required": false
         },
-        "LOG_CHANNEL": {
+        "OWNER_ID": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
             "required": true   
         },
-        "OWNER_ID": {
+        "LOG_CHANNEL": {
             "description": "Same Logs channel id with -100xxxxxxx",
             "required": true       
         },
@@ -55,15 +55,15 @@
             "description": "Username or ID of users to give access of inline search. Separate multiple users by space.\nLeave it empty if you don't want to restrict bot usage.",
             "required": false
         },
-        "WELCOME": {
+        "BROADCAST_AS_COPY": {
             "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
             "required": false
         },
-        "LINK_BYPASS": {
+        "WELCOME_IMAGE": {
             "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
             "required": false
         },
-        "BROADCAST_AS_COPY":{
+        "LINK_BYPASS":{
       "description": "Enter True if you want other shortener links to be bypassed. Read README for more information",
       "value": "False",
       "required": false 
